@@ -14,7 +14,7 @@ class MyExtension {
         return {
             id: 'mijal', // Replace with the ID you specified in scratch-gui
             name: 'My Extension',
-            //colour: '#8BC34A',
+            colour: '#2F94A1',
             //colourSecondary: '#7CB342',
             //colourTertiary: '#689F38',
             //menuIconURI: icon,
