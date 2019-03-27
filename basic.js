@@ -7,7 +7,7 @@ const icon = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34
  * Class for the makey makey blocks in Scratch 3.0
  * @constructor
  */
-class Scratch3MyExtension {
+class MyExtension {
     constructor () {}
     
     getInfo () {
@@ -43,4 +43,5 @@ class Scratch3MyExtension {
         return Math.pow(BASE, POWER);
     }
 }
-module.exports = Scratch3MyExtension;
+
+Scratch.extensions.register(new MyExtension());
